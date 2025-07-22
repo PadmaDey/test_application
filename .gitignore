@@ -193,17 +193,4 @@ cython_debug/
 .cursorignore
 .cursorindexingignore
 
-**/logs/
-**/__pycache__/
-mysql_conn_venv/
-poetry.lock
-
-
-
-backend/app/utils/secret_key.py
-docker.txt
-test.py
-docker-image.yml
-ci-template.yml
-docker-ci.yml
 test_app_venv/
