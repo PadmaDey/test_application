@@ -1,10 +1,7 @@
 .PHONY: run test
 
 run:
-	cd backend && uvicorn main:app --reload
+	uvicorn backend.main:app --reload
 
 test:
 	pytest
-
-
-
